@@ -165,7 +165,7 @@ class PenjualanController extends Controller
         $totalPrice += $cart->product->price * $cart->qty;
     }
 
-    $poinmember = $totalPrice * 10 / 100;
+    $poinmember = $totalPrice *  0.01;
 
     if ($request->checkPoin) {
         $totalPrice -= $member->poin_member;

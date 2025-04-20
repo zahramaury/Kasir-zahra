@@ -1,7 +1,6 @@
 @extends('main')
 @section('title', 'Result Member Page')
 @section('breadcrumb', 'Member')
-@section('page-title', 'Member')
 
 @section('content')
 
